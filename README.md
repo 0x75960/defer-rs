@@ -19,10 +19,6 @@ defer = { git = "https://github.com/0x75960/defer-rs", branch = "master" }
 #[macro_use(defer)]
 extern crate defer;
 
- ```rust
-#[macro_use(defer)]
-extern crate defer;
-
 use defer::Defer;
 
 fn main() {
