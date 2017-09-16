@@ -57,9 +57,8 @@ fn main() {
 
 ### attention
 
-* there are least one defference between go and this.
+* there are least one difference between go and this.
 
-    * defer **in this library** call registered function **when leave scope**.
-
-    * defer **in go** call registered function **when leave func**.
-        * not equal with when leave the registered scope
+|              # | in this library   | go(original)         |
+|---------------:|:------------------|:---------------------|
+| 1. executed at | **leaving scope** | **leaving function** |
